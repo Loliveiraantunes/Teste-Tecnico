@@ -1,0 +1,96 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+    color: black;
+}
+
+
+.top{
+    width: 100%;
+    background-image: url("../img/bg.jpg");
+    background-size: 100%;
+    padding: 1%;
+    margin: 0;
+    box-shadow: inset 1px 1px 6px black;
+      filter: grayscale(70%);
+}
+.top > h1{
+    color: white;
+    text-shadow:1px 1px 1px black;
+    font-size: 80px;
+    text-align: center;
+    vertical-align:middle;
+    margin:10% auto;
+    line-height:51px;
+}
+@media (min-width:200px){
+    .top{
+        height: 200px;
+    }
+    .top > h1{
+        font-size: 30px;
+        margin:10% auto;
+    }
+}
+@media (min-width:300px){
+    .top{
+        height: 150px;
+    }
+    .top > h1{
+        font-size: 40px;
+        margin:10% auto;
+    }
+}
+@media (min-width:500px){
+    .top{
+        height: 200px;
+    }
+    .top > h1{
+        font-size: 50px;
+        margin:10% auto;
+    }
+}
+@media (min-width: 900px){
+    .top{
+        height: 500px;
+    }
+    .top > h1{
+        font-size: 80px;
+        margin:15% auto;
+    }
+}
+
+.container{
+    padding: 5%;
+}
+.filtro{
+  width: 100%;
+  height: 60px;
+}
+
+.item_form{
+    width: 250px;
+   float:left;
+   vertical-align: central;
+}
+
+.item_form select{
+    width: 200px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.item_form_btn input{
+    background:#00cccc ;
+    outline: none;
+    border: none;
+    color: white;
+    width: 150px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.item_form_btn input:hover{
+    background: #009999;
+}
